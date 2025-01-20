@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(./zakaz.png);
+  width: 100vh;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.input_wrapper input {
+  padding: 20px;
+  width: 362.49px;
+  height: 50.72px;
+  border-radius: 9px;
+  border: 1px;
+}
+
+.input_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inp {
+  padding: 20px;
+  width: 749.73px;
+  height: 81.65px;
+  border-radius: 9px;
+  border: 1px;
+
+  
+}
+button {
+  width: 169.49px;
+  height: 42.06px;
+  border-radius: 9px;
+  background: linear-gradient(96.12deg, #d4145a -21.03%, #3d5bf5 103.56%);
+}
